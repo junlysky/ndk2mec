@@ -63,7 +63,7 @@ int main(int argc,char **argv){
             sscanf(lines,"%d %f %f %f %f %f %f %f %f %f %f %f %f",&exponent,&mrr,&err1,&mtt,&err2,&mpp,&err3,&mrt,&err4,&mrp,&err5,&mtp,&err6);
         }
         else if (count ==4){
-            sscanf(lines,"%s %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f",ver,&p_gen,&p_plu,&p_azi,&b_gen,&b_plu,&b_azi,&t_gen,&t_plu,&t_azi,&scalar,&str1,&dip1,&rak1,&str2,&dip2,&rak2);
+            sscanf(lines,"%s %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f %f",ver,&t_gen,&t_plu,&t_azi,&b_gen,&b_plu,&b_azi,&p_gen,&p_plu,&p_azi,&scalar,&str1,&dip1,&rak1,&str2,&dip2,&rak2);
             fprintf(fpout,"%s %s %.2f %.2f %.1f %.1f %.1f %.0f %.0f %.0f %.0f %.0f %.0f %.3f %.3f %.3f %.3f %.3f %.3f %.1f %.1f %.3f %.1f %.1f %.3f %.1f %.1f %.3f %.3f %2d %s \n",date,time,lon,lat,dep,mag_mb,mag_ms,str1,dip1,rak1,str2,dip2,rak2,mrr,mtt,mpp,mrt,mrp,mtp,p_azi,p_plu,p_gen,b_azi,b_plu,b_gen,t_azi,t_plu,t_gen,scalar,exponent,name);
         }
         else {

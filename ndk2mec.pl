@@ -84,15 +84,15 @@ while($i<@lines){
  # r is up ,t is south, p is east; 
     }
     elsif( $count == 4){
-        $p_eigen=$line[1];
-        $p_plu=$line[2];
-        $p_trend=$line[3];
+        $t_eigen=$line[1];
+        $t_plu=$line[2];
+        $t_trend=$line[3];
         $b_eigen=$line[4];
         $b_plu=$line[5];
         $b_trend=$line[6];
-        $t_eigen=$line[7];
-        $t_plu=$line[8];
-        $t_trend=$line[9];
+        $p_eigen=$line[7];
+        $p_plu=$line[8];
+        $p_trend=$line[9];
         $scale=$line[10];
         $str1=$line[11];
         $dip1=$line[12];

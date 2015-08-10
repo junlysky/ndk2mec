@@ -52,5 +52,6 @@
    eigenvalue, should be multiplied by 10**(exponent)
    plunge
    azimuth
+   the order is: t-eigen,t-plu,t-azi,b-eigen,b-plu,b-azi,p-eigen,p-plu,p-azi
 3. scalar moment , to be multiplied by 10**(exponent)
 4. strike,dip,rake

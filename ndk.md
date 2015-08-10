@@ -93,7 +93,7 @@ Fifth line: CMT info (4)
         as in Aki and Richards.
           
 ================================================================================
-        
+
 Notes (additional information):
 
 (1) CMT event names follow two conventions. Older events use an 8-character 
